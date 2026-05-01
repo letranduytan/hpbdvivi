@@ -10,9 +10,11 @@
 </head>
 <body>
 		<script>
-		var audio = new Audio("birthday.mp3");
-		audio.play();
-	</script>
+document.addEventListener("click", function() {
+    var audio = new Audio("birthday.mp3");
+    audio.play();
+}, { once: true });
+</script>
 <div class="card">
 		<div class="imgBox">
 			<div class="bark"></div>
